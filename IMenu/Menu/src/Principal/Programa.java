@@ -9,8 +9,9 @@ public class Programa {
 		
 		//Banco.gerarDadosTemporarios();
 		//TelaDeLogin.mostrar();
+		BbModel banco = new BbModel();
 		
-		Menu menu = new Menu(null);
+		Menu menu = new Menu(banco);
 		menu.mostrarMenu();
 		
 		BbModel.BbModel();
